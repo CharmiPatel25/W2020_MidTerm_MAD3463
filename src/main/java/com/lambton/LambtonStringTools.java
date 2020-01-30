@@ -40,7 +40,28 @@ public class LambtonStringTools
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
     public static String mostFrequent(String s) 
     {
-        return null;
+        int highestFreq = 0;
+        char mostFreqChar = ' ';
+        for (int i = 0; i < s.length(); i++)
+        {
+            char x = s.charAt(i);
+            int c = 0;
+            for (int j = s.indexOf(x); j != -1; j = s.indexOf(x, j + 1))
+
+            {
+                c++;
+
+            }
+            if (c > highestFreq)
+
+            {
+                highestFreq = c;
+                mostFreqChar = x;
+
+            }
+
+        }
+        return String.valueOf(mostFreqChar);
     }
     
     //4 - CONVERT BINARY NUMBER TO DECIMALS
@@ -48,7 +69,7 @@ public class LambtonStringTools
     {
         int decimal= Integer.parseInt(s,2);
         return decimal;
-       
+
     }
      
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
