@@ -27,11 +27,11 @@ public class C0768448Main {
             System.out.println("Output : " + rev);
         }
         
-      /*  System.out.println("\n--- Init");
+        System.out.println("\n--- Init");
         String init = LambtonStringTools.initials("pritesh kumar pAtEl");
         System.out.println("Input  : pritesh kumar pAtEl");
         System.out.println("Output : " + init);
-        */
+
         
         System.out.println("\n--- Binary to Decimal");
         int decimal = LambtonStringTools.binaryToDecimal("101010");
@@ -46,11 +46,11 @@ public class C0768448Main {
         System.out.println("Input  : aassrrttggg desf tersgdv");
         System.out.println("Output : " + mostFrequent);
         
-      /*  System.out.println("\n--- Replace SubString");
+      System.out.println("\n--- Replace SubString");
         String newString = LambtonStringTools.replaceSubString("Lambton College in Toronto", "College", "University");
         System.out.println("Input  : Lambton College in Toronto");
         System.out.println("Output : " + newString);
 
-       */
+
     }
 }
